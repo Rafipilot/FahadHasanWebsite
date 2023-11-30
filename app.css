@@ -41,7 +41,7 @@ footer {
 p{
     padding-left: 5rem;
     padding-right: 5rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
 }
@@ -50,12 +50,18 @@ img{
     display: block;
     margin-left: 2rem;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
+    #TextNextToImg{
+        font-size: 0.6em;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
     img{
-        height: 70%;
+        width: 50%;
     }
 }
 
@@ -68,3 +74,6 @@ h2{
     display: flex;
 
 }
+
+
+
