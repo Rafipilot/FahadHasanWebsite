@@ -22,35 +22,58 @@ h1{
     top: 0;
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    z-index: 1;
 }
 
 img {
     display: block;
     margin-left: 2rem;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
  
 }
 
+p{
+    padding-top: 5rem;
+}
 @media (max-width: 800px) {
     p {
         padding: 2rem;
+        font-size: 1rem;
     }
 
     img {
         width: 50%;
     }
+
+    
 }
 
-h2 {
-    text-align: center;
-    font-size: 3em;
+@media (max-width: 600px) {
+    p {
+        padding: 1rem;
+        font-size: 0.7rem;
+    }
 
+    img {
+        width: 50%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+h3{
+    text-align: center;
+    padding: 2rem;
 }
 
 #IMGWITHTEXT {
     display: flex;
-
+    align-items: center;
 }
 
 #Main {
@@ -62,9 +85,50 @@ a {
     color: #000;
     text-decoration: none;
     transition: color 0.3s ease; /* Smooth transition for link color */
+    padding: 2rem;
 }
 
 a:hover {
     color: #555; /* Darken link color on hover */
     text-decoration: underline;
+}
+
+h2 {
+    font-size: 3rem;
+    position: absolute;
+    top: 10%; /* Adjust the top value to position it where you want */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 800px) {
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+#mpic{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+
+
+#Title{
+    text-align: center;
+    position: relative;
+}
+
+form{
+    margin-top: 5rem;
 }
