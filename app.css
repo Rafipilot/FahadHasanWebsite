@@ -6,37 +6,10 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: bisque;
+
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
 
-nav {
-    background-color: #f1f1f1;
-    padding: 10px;
-}
-
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-section {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
 
 p{
     padding-left: 5rem;
@@ -44,6 +17,17 @@ p{
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
+}
+
+
+
+#HeadCont {
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    top: 0;
+    padding: 1rem; 
 }
 
 img{
@@ -72,6 +56,10 @@ h2{
 
 #IMGWITHTEXT{
     display: flex;
+
+}
+
+#Main{
 
 }
 
