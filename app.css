@@ -77,7 +77,13 @@ p{
     }
 }
 
-
+#links{
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+    margin-left: 1.5rem;
+    justify-content: space-between;
+}
 
 
 h3{
@@ -95,13 +101,7 @@ h3{
 
 }
 
-a {
-    color: #000;
-    text-decoration: none;
-    transition: color 0.3s ease; /* Smooth transition for link color */
-    margin-left: 2rem;
-    justify-content: space-between;
-}
+
 
 a:hover {
     color: #555; /* Darken link color on hover */
