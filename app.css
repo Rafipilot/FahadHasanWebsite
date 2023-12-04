@@ -157,13 +157,80 @@ input[type="submit"] {
 
 }
 
-@media screen and (max-width: 600px) {
-    h2{
-        font-size: 1rem;
+@media screen and (min-width: 0px) {
+    h2 {
+        color: #000000;
+        font-size: 15px;
+        position: absolute;
+        top: 55%; /* Adjust the top value to position it where you want */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
     }
-
-
 }
+
+@media screen and (min-width: 600px) {
+    h2 {
+        color: #000000;
+        font-size: 30px;
+        position: absolute;
+        top: 55%; /* Adjust the top value to position it where you want */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    h2 {
+        color: #000000;
+        font-size: 40px;
+        position: absolute;
+        top: 55%; /* Adjust the top value to position it where you want */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    h2 {
+        color: #000000;
+        font-size: 50px;
+        position: absolute;
+        top: 55%; /* Adjust the top value to position it where you want */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h2 {
+        color: #000000;
+        font-size: 50px;
+        position: absolute;
+        top: 55%; /* Adjust the top value to position it where you want */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    h2 {
+        color: #000000;
+        font-size: 60px;
+        position: absolute;
+        top: 55%; /* Adjust the top value to position it where you want */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+}
+
+
 
 #ContactButton {
     padding: 10px 20px;
@@ -200,12 +267,3 @@ input[type="submit"] {
 }
 
 
-h2 {
-    color: #000000;
-    font-size: 3rem;
-    position: absolute;
-    top: 55%; /* Adjust the top value to position it where you want */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-    }
