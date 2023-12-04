@@ -53,7 +53,7 @@ h3{
 }
 
 #IMGWITHTEXT {
-    display: flex;
+
     align-items: center;
 }
 
@@ -136,10 +136,33 @@ input[type="submit"] {
 #Pics {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;  /*Center items with space around them */
     max-width: 100%;
-    padding: 10px;
+    padding: 10px; /* Adding padding to the container */
     box-sizing: border-box;
+}
+
+/* Responsive images within the container */
+#Pics img {
+    max-width: 100%; /* Make sure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+@media screen and (max-width: 600px) {
+    #Pics {
+        justify-content: center; /* Center items for smaller screens */
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    h2{
+        font-size: 1rem;
+    }
+
+
 }
 
 #ContactButton {
