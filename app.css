@@ -72,79 +72,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* @media (max-width: 1300px) {
-
-    #TextNextToImg{
-        font-size: larger;
-    }
-
-} */
-
-/* @media (max-width: 1000px) {
-
-    #TextNextToImg{
-        font-size: larger;
-    }
-
-} */
-
-@media (min-width: 801px) {
-
-    h2 {
-    color: #000000;
-    font-size: 3rem;
-    position: absolute;
-    top: 55%; /* Adjust the top value to position it where you want */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-    }
-
-}
-
-@media (max-width: 800px) {
-
-    h2 {
-        color: #9b0d0d;
-        font-size: 2rem;
-        position: absolute;
-        top: 55%; /* Adjust the top value to position it where you want */
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1;
-    }
-
-    p {
-        padding: 2rem;
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 600px) {
-    p {
-        padding: 1rem;
-        font-size: 0.7rem;
-    }
-
-    h2 {
-        font-size: 1rem;
-    }
-
-    a {
-        font-size: 0.9rem;
-        margin-left: 0.3rem;
-    }
-}
-
-@media (max-width: 500px) {
-
-    a {
-        font-size: 0.7rem;
-        
-    }
-}
-
-
 
 #mpic{
     display: block;
@@ -206,10 +133,13 @@ input[type="submit"] {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
 
-#Pics{
-    padding: 5rem;
+#Pics {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 #ContactButton {
@@ -245,3 +175,14 @@ input[type="submit"] {
     color: #ccc;
     opacity: 0.6;
 }
+
+
+h2 {
+    color: #000000;
+    font-size: 3rem;
+    position: absolute;
+    top: 55%; /* Adjust the top value to position it where you want */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    }
