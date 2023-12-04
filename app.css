@@ -25,49 +25,18 @@ h1{
     z-index: 2;
 }
 
-img {
+/* img {
     display: block;
     margin-left: 2rem;
     margin-right: auto;
     width: 100%;
  
-}
+} */
 
 p{
     padding-top: 5rem;
 }
-@media (max-width: 800px) {
-    p {
-        padding: 2rem;
-        font-size: 1rem;
-    }
 
-
-
-    
-}
-
-@media (max-width: 600px) {
-    p {
-        padding: 1rem;
-        font-size: 0.7rem;
-    }
-
-
-
-    a {
-        font-size: 0.9rem;
-        margin-left: 0.3rem;
-    }
-}
-
-@media (max-width: 500px) {
-
-    a {
-        font-size: 0.7rem;
-        
-    }
-}
 
 #links{
     color: #000;
@@ -103,18 +72,32 @@ a:hover {
     text-decoration: underline;
 }
 
-@media (min-width: 1300px) {
+/* @media (max-width: 1300px) {
 
     #TextNextToImg{
         font-size: larger;
     }
 
-}
+} */
 
-@media (min-width: 1000px) {
+/* @media (max-width: 1000px) {
 
     #TextNextToImg{
         font-size: larger;
+    }
+
+} */
+
+@media (min-width: 801px) {
+
+    h2 {
+    color: #000000;
+    font-size: 3rem;
+    position: absolute;
+    top: 55%; /* Adjust the top value to position it where you want */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
     }
 
 }
@@ -122,17 +105,46 @@ a:hover {
 @media (max-width: 800px) {
 
     h2 {
+        color: #9b0d0d;
         font-size: 2rem;
+        position: absolute;
+        top: 55%; /* Adjust the top value to position it where you want */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    p {
+        padding: 2rem;
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 600px) {
+    p {
+        padding: 1rem;
+        font-size: 0.7rem;
+    }
 
     h2 {
         font-size: 1rem;
     }
 
+    a {
+        font-size: 0.9rem;
+        margin-left: 0.3rem;
+    }
 }
+
+@media (max-width: 500px) {
+
+    a {
+        font-size: 0.7rem;
+        
+    }
+}
+
+
 
 #mpic{
     display: block;
@@ -219,15 +231,6 @@ input[type="submit"] {
     border-color: #0056b3; /* Change border color on hover */
 }
 
-h2 {
-    color: #000000;
-    font-size: 3rem;
-    position: absolute;
-    top: 55%; /* Adjust the top value to position it where you want */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
 
 
 #box{
