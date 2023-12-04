@@ -42,9 +42,7 @@ p{
         font-size: 1rem;
     }
 
-    img {
-        width: 50%;
-    }
+
 
     
 }
@@ -55,13 +53,7 @@ p{
         font-size: 0.7rem;
     }
 
-    img {
-        width: 50%;
-    }
 
-    h2 {
-        font-size: 2rem;
-    }
 
     a {
         font-size: 0.9rem;
@@ -102,7 +94,9 @@ h3{
 }
 
 
-    
+#Subheading{
+    font-size: large;
+}
 
 a:hover {
     color: #555; /* Darken link color on hover */
