@@ -57,10 +57,7 @@ h3{
     align-items: center;
 }
 
-#Main {
-    margin-top: 8rem;
 
-}
 
 
 #Subheading{
@@ -147,6 +144,23 @@ input[type="submit"] {
     max-width: 100%; /* Make sure images don't exceed their container */
     height: auto; /* Maintain aspect ratio */
 }
+
+#main {
+    
+}
+
+@media screen and (min-width: 0px) {
+    #Main {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (min-width: 536px) {
+    #Main {
+        margin-top: 8rem;
+    }
+}
+
 
 
 @media screen and (max-width: 600px) {
