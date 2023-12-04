@@ -116,6 +116,23 @@ h2 {
     transform: translateX(-50%);
 }
 
+
+@media (min-width: 1300px) {
+
+    #TextNextToImg{
+        font-size: larger;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    #TextNextToImg{
+        font-size: larger;
+    }
+
+}
+
 @media (max-width: 800px) {
 
     h2 {
@@ -214,4 +231,8 @@ input[type="submit"] {
 #ContactButton:hover {
     background-color: #0056b3; /* Change background color on hover */
     border-color: #0056b3; /* Change border color on hover */
+}
+
+#SkylineGif{
+
 }
