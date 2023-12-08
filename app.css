@@ -6,10 +6,7 @@ body {
     background-color: bisque;
 }
 
-p {
-    padding: 2rem 5rem;
-    text-align: center;
-}
+
 
 h1{
     text-align: center;
@@ -33,9 +30,7 @@ h1{
  
 } */
 
-p{
-    padding-top: 5rem;
-}
+
 
 
 #links{
@@ -53,8 +48,9 @@ h3{
 }
 
 #IMGWITHTEXT {
-
+    background-color: #4a4a58;
     align-items: center;
+    display: flex;
 }
 
 
@@ -179,6 +175,10 @@ input[type="submit"] {
         transform: translateX(-50%);
         z-index: 1;
     }
+    p {
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -190,6 +190,11 @@ input[type="submit"] {
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;
+    }
+
+    p {
+        padding: 2rem 5rem;
+        text-align: center;
     }
 }
 
@@ -204,6 +209,10 @@ input[type="submit"] {
         transform: translateX(-50%);
         z-index: 1;
     }
+    p {
+        padding: 2rem 5rem;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -215,6 +224,10 @@ input[type="submit"] {
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;
+    }
+    p {
+        padding: 2rem 5rem;
+        text-align: center;
     }
 }
 
@@ -228,6 +241,10 @@ input[type="submit"] {
         transform: translateX(-50%);
         z-index: 1;
     }
+    p {
+        padding: 2rem 5rem;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1800px) {
@@ -240,7 +257,12 @@ input[type="submit"] {
         transform: translateX(-50%);
         z-index: 1;
     }
+    p {
+        padding: 2rem 5rem;
+        text-align: center;
+    }
 }
+
 
 
 
