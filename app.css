@@ -141,6 +141,9 @@ input[type="submit"] {
     height: auto; /* Maintain aspect ratio */
 }
 
+#AboutTitle {
+    padding-top: 1rem;
+}
 
 
 @media screen and (min-width: 0px) {
