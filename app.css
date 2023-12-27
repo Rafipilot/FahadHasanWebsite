@@ -319,14 +319,14 @@ input[type="submit"] {
 
 #ContactName{
     padding: 10px 10px;
-    max-width: 50%;
+    max-width: 35%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #ContactEmail{
     padding: 10px 10px;
-    max-width: 50%;
+    max-width: 35%;
     margin-left: auto;
     margin-right: auto;
 }
