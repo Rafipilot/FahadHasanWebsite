@@ -308,3 +308,29 @@ input[type="submit"] {
 }
 
 
+
+
+#ContactMessage{
+    padding: 50px 10px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ContactName{
+    padding: 10px 10px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ContactEmail{
+    padding: 10px 10px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ContactForm{
+    text-align: center;
+}
